@@ -1,0 +1,95 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: beige;
+ }
+ 
+ .header{
+   max-width: 100%;
+   position: relative;
+ }
+.headermain_img{
+   width: 100%;
+   max-height: 800px;
+   object-fit: cover;
+
+}
+
+ .header_img {
+   max-width: 30%;
+   position: absolute;
+   top: 20px;
+   left: 40px;
+   background-color: transparent;
+ }
+ .text{
+   color: #fff;
+   text-shadow: 1px 1px 6px #000;
+   text-align: center;
+   font-size: 30px;
+   background-color: transparent;
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   transform: translateX(-50%);
+
+ }
+
+  .logo_color{
+   text-align: center;
+ }
+
+ .text_black{
+   margin: 50px;
+   text-align: center;
+   font-size: 2rem;
+   font-family: serif;
+   }
+  .text_black::before,.text_black::after{
+   content: "";
+   display: inline-block;
+   background-image: url(../img/icon.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 50px;
+   height: 50px;
+   margin: 10px;
+   vertical-align: middle;
+ }
+
+ .menu_card{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+ }
+ .card{
+   width: 30%;
+   font-size: 1.5rem;
+   text-align: center;
+   font-family: serif;
+ }
+ .card_img{
+   width: 100%;
+ }
+
+.takeout_menu{
+   margin: 0 auto;
+   max-width: 50%;
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+
+.takeout_item1{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.takeout_item2{
+   font-size: 2rem;
+   text-align: justify;
+   flex-grow: 2;
+}
